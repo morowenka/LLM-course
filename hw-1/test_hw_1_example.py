@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 from langchain.schema import HumanMessage, SystemMessage
 from langchain.chat_models.gigachat import GigaChat
-
+from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 
 
 
